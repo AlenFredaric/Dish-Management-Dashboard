@@ -1,0 +1,32 @@
+[
+  {
+    "dishId": "culinary-01",
+    "dishName": "Truffle Infused Wild Mushroom Risotto",
+    "imageUrl": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=800&q=80",
+    "isPublished": true
+  },
+  {
+    "dishId": "culinary-02",
+    "dishName": "Seared A5 Wagyu Beef with Chimichurri",
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+    "isPublished": true
+  },
+  {
+    "dishId": "culinary-03",
+    "dishName": "Pan-Seared Chilean Sea Bass in Lemon Herb Butter",
+    "imageUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=80",
+    "isPublished": false
+  },
+  {
+    "dishId": "culinary-04",
+    "dishName": "Belgian Dark Chocolate Soufflé with Gold Dust",
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+    "isPublished": false
+  },
+  {
+    "dishId": "culinary-05",
+    "dishName": "Saffron & Lobster Tagliatelle",
+    "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
+    "isPublished": true
+  }
+]

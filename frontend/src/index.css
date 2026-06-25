@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #020617; /* bg-slate-950 */
+    color: #f8fafc; /* text-slate-50 */
+    font-family: 'Outfit', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbars for a premium dark layout */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Custom glow effects and keyframes */
+@keyframes neon-pulse {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(16, 185, 129, 0.4), 0 0 16px rgba(16, 185, 129, 0.2);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(16, 185, 129, 0.7), 0 0 32px rgba(16, 185, 129, 0.4);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes neon-pulse-amber {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(245, 158, 11, 0.4), 0 0 16px rgba(245, 158, 11, 0.2);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(245, 158, 11, 0.7), 0 0 32px rgba(245, 158, 11, 0.4);
+    transform: scale(1.1);
+  }
+}
+
+.animate-neon-pulse {
+  animation: neon-pulse 2s infinite ease-in-out;
+}
+
+.animate-neon-pulse-amber {
+  animation: neon-pulse-amber 2s infinite ease-in-out;
+}
+
+/* Mouse-tracking ambient glow effect container */
+.ambient-glow-orb {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.08) 0%, rgba(99, 102, 241, 0.05) 50%, transparent 100%);
+  pointer-events: none;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.glass-morphic {
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(51, 65, 85, 0.5);
+}
+
+.glass-card-glow-active {
+  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.glass-card-glow-inactive {
+  box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
