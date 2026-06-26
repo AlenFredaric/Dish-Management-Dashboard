@@ -224,7 +224,7 @@ Demonstrates automatic offline detection and reconnection handling when the back
 
 Optimized layout for mobile and tablet devices.
 
-![Mobile View](./screenshots/mobile-view.png)
+![Mobile View](./screenshots/mobile-screen.png)
 
 ---
 
