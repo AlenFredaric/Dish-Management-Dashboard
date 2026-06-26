@@ -9,13 +9,13 @@
     "dishId": "culinary-02",
     "dishName": "Seared A5 Wagyu Beef with Chimichurri",
     "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
-    "isPublished": false
+    "isPublished": true
   },
   {
     "dishId": "culinary-03",
     "dishName": "Pan-Seared Chilean Sea Bass in Lemon Herb Butter",
     "imageUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=80",
-    "isPublished": true
+    "isPublished": false
   },
   {
     "dishId": "culinary-04",
