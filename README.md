@@ -204,15 +204,15 @@ screenshots/
 ├── live-sync.png
 └── mobile-view.png
 ```
-## 📸 Application Preview
+## Application Preview
 
-### 🖥️ Dashboard
+### Dashboard
 
 ![Dashboard](./screenshots/dashboard.png)
 
 ---
 
-### 📡 Backend Connection Status
+### Backend Connection Status
 
 Demonstrates automatic offline detection and reconnection handling when the backend server becomes unavailable.
 
@@ -220,7 +220,7 @@ Demonstrates automatic offline detection and reconnection handling when the back
 
 ---
 
-### 📱 Responsive Mobile View
+### Responsive Mobile View
 
 Optimized layout for mobile and tablet devices.
 
