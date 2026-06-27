@@ -1,8 +1,13 @@
 # Culinary Control Center
 
-> A modern, real-time restaurant menu management dashboard built with **React**, **Node.js**, **Express**, **Socket.IO**, and **Tailwind CSS**. Designed for restaurant administrators to publish, archive, and manage dishes with instant synchronization across connected clients.
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?logo=socket.io&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white)
 
----
+> A modern, real-time restaurant menu management dashboard built with **React**, **Node.js**, **Express**, **Socket.IO**, and **Tailwind CSS**. Designed for restaurant administrators to publish, archive, and manage dishes with instant synchronization across connected clients.
 
 ## Overview
 
