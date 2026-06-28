@@ -13,7 +13,7 @@
 
 Culinary Control Center is a premium restaurant administration dashboard that enables real-time menu management. Administrators can instantly publish or archive dishes while all connected clients receive updates via WebSockets, creating a seamless and responsive experience.
 
-The interface features an immersive glassmorphism design, animated components, and a modern user experience inspired by premium SaaS dashboards.
+The interface features an immersive glassmorphism design, animated components, and a modern user experience inspired by premium SaaS dashboard's.
 
 ---
 
