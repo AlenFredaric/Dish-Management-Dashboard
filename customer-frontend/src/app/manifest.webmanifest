@@ -1,0 +1,16 @@
+{
+  "name": "Maison Culinaire - Premium Gastronomy Atelier",
+  "short_name": "Maison Culinaire",
+  "description": "An Awwwards-quality luxury dining experience and restaurant atelier.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05060D",
+  "theme_color": "#D4AF37",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

@@ -3,30 +3,78 @@
     "dishId": "culinary-01",
     "dishName": "Truffle Infused Wild Mushroom Risotto",
     "imageUrl": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=800&q=80",
-    "isPublished": true
+    "isPublished": false,
+    "price": 32,
+    "category": "Signature Mains",
+    "chefPick": false,
+    "rating": 4.8,
+    "preparationTime": "25 mins",
+    "description": "Acquerello aged carnaroli rice simmered in slow-cooked porcini broth, topped with shaved black winter truffle and micro herbs.",
+    "calories": 540
   },
   {
     "dishId": "culinary-02",
     "dishName": "Seared A5 Wagyu Beef with Chimichurri",
     "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
-    "isPublished": true
+    "isPublished": true,
+    "price": 85,
+    "category": "Signature Mains",
+    "chefPick": true,
+    "rating": 4.95,
+    "preparationTime": "20 mins",
+    "description": "Seared premium Miyazaki A5 Wagyu beef slices served with a vibrant fresh herb chimichurri sauce and roasted fingerling potatoes.",
+    "calories": 720
   },
   {
     "dishId": "culinary-03",
     "dishName": "Pan-Seared Chilean Sea Bass in Lemon Herb Butter",
     "imageUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=80",
-    "isPublished": false
+    "isPublished": false,
+    "price": 48,
+    "category": "Signature Mains",
+    "chefPick": false,
+    "rating": 4.75,
+    "preparationTime": "30 mins",
+    "description": "Pan-seared tender Chilean sea bass fillet, nested on fresh asparagus spears and finished with a rich lemon herb butter reduction.",
+    "calories": 460
   },
   {
     "dishId": "culinary-04",
     "dishName": "Belgian Dark Chocolate Soufflé with Gold Dust",
     "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
-    "isPublished": false
+    "isPublished": true,
+    "price": 18,
+    "category": "Decadent Desserts",
+    "chefPick": false,
+    "rating": 4.9,
+    "preparationTime": "15 mins",
+    "description": "Molten Belgian dark chocolate soufflé with a warm gooey center, finished with edible 24k gold dust and Madagascar vanilla bean gelato.",
+    "calories": 620
   },
   {
     "dishId": "culinary-05",
     "dishName": "Saffron & Lobster Tagliatelle",
     "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
-    "isPublished": true
+    "isPublished": true,
+    "price": 54,
+    "category": "Signature Mains",
+    "chefPick": true,
+    "rating": 4.9,
+    "preparationTime": "25 mins",
+    "description": "Hand-rolled tagliatelle pasta infused with fine Persian saffron, tossed in butter-poached Maine lobster tails and fresh heirloom tomatoes.",
+    "calories": 580
+  },
+  {
+    "dishId": "culinary-06",
+    "dishName": "Oscietra Caviar on Buckwheat Blinis",
+    "imageUrl": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80",
+    "isPublished": true,
+    "price": 120,
+    "category": "Artisanal Starters",
+    "chefPick": true,
+    "rating": 5,
+    "preparationTime": "10 mins",
+    "description": "Imperial Oscietra caviar served on warm buckwheat blinis with crème fraîche, chives, and finely chopped organic egg yolk.",
+    "calories": 280
   }
 ]

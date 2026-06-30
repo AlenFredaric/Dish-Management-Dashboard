@@ -61,6 +61,45 @@ app.get('/api/dishes', async (req, res) => {
   }
 });
 
+// 1b. GET /api/menu - customer endpoint returning active items
+app.get('/api/menu', async (req, res) => {
+  try {
+    const dishes = await readDishes();
+    const activeDishes = dishes.filter(d => d.isPublished === true);
+    res.json(activeDishes);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to retrieve active menu' });
+  }
+});
+
+// 1c. GET /api/menu/featured - customer endpoint returning active chef picks
+app.get('/api/menu/featured', async (req, res) => {
+  try {
+    const dishes = await readDishes();
+    const featured = dishes.filter(d => d.isPublished === true && d.chefPick === true);
+    res.json(featured);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to retrieve featured menu items' });
+  }
+});
+
+// 1d. GET /api/menu/categories - customer endpoint returning active categories
+app.get('/api/menu/categories', async (req, res) => {
+  try {
+    const dishes = await readDishes();
+    const activeCategories = Array.from(
+      new Set(
+        dishes
+          .filter(d => d.isPublished === true && d.category)
+          .map(d => d.category)
+      )
+    );
+    res.json(activeCategories);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to retrieve active categories' });
+  }
+});
+
 // 2. PATCH /api/dishes/:dishId/toggle
 app.patch('/api/dishes/:dishId/toggle', async (req, res) => {
   const { dishId } = req.params;
