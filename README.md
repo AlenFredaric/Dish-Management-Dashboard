@@ -1,4 +1,4 @@
-# 🍽️ Dish Management Platform
+# Dish Management Platform
 
 <div align="center">
 
@@ -18,7 +18,7 @@ A modern **full-stack restaurant management platform** featuring a premium **Adm
 
 ---
 
-# 📖 Overview
+# Overview
 
 Dish Management Platform is a modern restaurant management ecosystem consisting of three independent applications working together.
 
@@ -26,15 +26,15 @@ The project demonstrates full-stack application architecture, responsive UI deve
 
 It currently consists of:
 
-- 🖥️ **Culinary Control Center** – Restaurant Administration Dashboard
-- 🍽️ **Maison Culinaire** – Premium Customer Restaurant Experience *(Currently under development)*
-- ⚙️ **Express Backend** – Shared REST API and data management layer
+- **Culinary Control Center** – Restaurant Administration Dashboard
+- **Maison Culinaire** – Premium Customer Restaurant Experience *(Currently under development)*
+- **Express Backend** – Shared REST API and data management layer
 
 ---
 
-# ✨ Applications
+# Applications
 
-## 🖥️ Culinary Control Center
+## Culinary Control Center
 
 A premium restaurant administration dashboard designed for restaurant managers to manage dishes in real time.
 
@@ -54,7 +54,7 @@ A premium restaurant administration dashboard designed for restaurant managers t
 
 ---
 
-## 🍽️ Maison Culinaire *(Under Development)*
+## Maison Culinaire *(Under Development)*
 
 A luxury customer-facing restaurant experience inspired by modern premium websites such as Tesla, Nobu, and Eleven Madison Park.
 
@@ -73,7 +73,7 @@ A luxury customer-facing restaurant experience inspired by modern premium websit
 
 ---
 
-# 🚀 Technology Stack
+# Technology Stack
 
 ## Frontend (Admin)
 
@@ -109,7 +109,7 @@ A luxury customer-facing restaurant experience inspired by modern premium websit
 
 ---
 
-# 🏗️ Project Architecture
+# Project Architecture
 
 ```text
                     Maison Culinaire
@@ -130,7 +130,7 @@ A luxury customer-facing restaurant experience inspired by modern premium websit
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```text
 dish-dashboard-solution/
@@ -170,7 +170,7 @@ dish-dashboard-solution/
 
 ---
 
-# ⭐ Current Features
+# Current Features
 
 ### Admin Dashboard
 
@@ -192,7 +192,7 @@ dish-dashboard-solution/
 
 ### Customer Frontend
 
-🚧 Currently under active development.
+Currently under active development.
 
 Upcoming modules include:
 
@@ -206,7 +206,7 @@ Upcoming modules include:
 
 ---
 
-# ⚙️ Installation
+# Installation
 
 ## Clone the Repository
 
@@ -222,7 +222,7 @@ cd Dish-Management-Dashboard
 
 ---
 
-## 📦 Install Backend Dependencies
+## Install Backend Dependencies
 
 ```bash
 cd backend
@@ -231,7 +231,7 @@ npm install
 
 ---
 
-## 🖥️ Install Admin Dashboard Dependencies
+## Install Admin Dashboard Dependencies
 
 ```bash
 cd ../frontend
@@ -240,7 +240,7 @@ npm install
 
 ---
 
-## 🍽️ Install Customer Frontend Dependencies
+## Install Customer Frontend Dependencies
 
 ```bash
 cd ../customer-frontend
@@ -249,13 +249,13 @@ npm install
 
 ---
 
-# ▶️ Running the Project
+# Running the Project
 
 This project contains three independent applications.
 
 ---
 
-## 1️⃣ Start the Backend Server
+## Start the Backend Server
 
 ```bash
 cd backend
@@ -270,7 +270,7 @@ http://localhost:3001
 
 ---
 
-## 2️⃣ Start the Admin Dashboard
+## Start the Admin Dashboard
 
 ```bash
 cd frontend
@@ -285,7 +285,7 @@ http://localhost:5173
 
 ---
 
-## 3️⃣ Start the Customer Frontend
+## Start the Customer Frontend
 
 ```bash
 cd customer-frontend
@@ -300,7 +300,7 @@ http://localhost:3000
 
 ---
 
-# 📡 API Overview
+# API Overview
 
 ### Admin API
 
@@ -321,7 +321,7 @@ http://localhost:3000
 
 ---
 
-# 🔄 System Workflow
+# System Workflow
 
 ```text
                   Admin Dashboard
@@ -344,9 +344,9 @@ http://localhost:3000
 
 ---
 
-# 🖼️ Application Preview
+# Application Preview
 
-## 🖥️ Admin Dashboard
+## Admin Dashboard
 
 Modern dashboard for managing restaurant dishes.
 
@@ -354,7 +354,7 @@ Modern dashboard for managing restaurant dishes.
 
 ---
 
-## 📶 Backend Connection Status
+## Backend Connection Status
 
 Displays graceful offline handling when the backend becomes unavailable.
 
@@ -362,7 +362,7 @@ Displays graceful offline handling when the backend becomes unavailable.
 
 ---
 
-## 📱 Responsive Mobile View
+## Responsive Mobile View
 
 Optimized experience across mobile and tablet devices.
 
@@ -370,7 +370,7 @@ Optimized experience across mobile and tablet devices.
 
 ---
 
-# 🛣️ Roadmap
+# Roadmap
 
 ## Near Term
 
@@ -402,7 +402,7 @@ Optimized experience across mobile and tablet devices.
 
 ---
 
-# 💡 Engineering Highlights
+# Engineering Highlights
 
 - Modular Full-Stack Architecture
 - Feature-Based Frontend Structure
@@ -416,7 +416,7 @@ Optimized experience across mobile and tablet devices.
 
 ---
 
-# 🤝 Contributing
+# Contributing
 
 Contributions are welcome!
 
@@ -473,7 +473,7 @@ Full-Stack JavaScript Developer
 
 ---
 
-## 🌟 Support
+## Support
 
 If you found this project helpful or interesting:
 
